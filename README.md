@@ -1,12 +1,49 @@
-# React + Vite
+# Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern pizza ordering web application built with React, Redux Toolkit, and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse a menu of pizzas fetched from a remote API
+- Add, remove, and update pizza items in your cart
+- Place orders with optional priority handling
+- Search for existing orders by order number
+- Autofill delivery address using geolocation
+- Responsive, mobile-friendly UI with Tailwind CSS
+- Error handling and loading states
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/) for UI development
+- [Redux Toolkit](https://redux-toolkit.js.org/) for state management
+- [React Router](https://reactrouter.com/) for routing
+- [Vite](https://vitejs.dev/) for fast development and build
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+
+## Getting Started
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```sh
+   npm run build
+   ```
+
+## Project Structure
+
+- `src/features/` – Feature modules (cart, menu, order, user)
+- `src/services/` – API service functions
+- `src/ui/` – Reusable UI components
+- `src/utils/` – Utility and helper functions
+
+## License
+
+This project is for educational
